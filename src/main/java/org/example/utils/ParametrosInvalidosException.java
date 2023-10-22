@@ -1,7 +1,7 @@
 package org.example.utils;
 
 public class ParametrosInvalidosException extends Exception {
-    //exception
+    //Exception
     public ParametrosInvalidosException(){
         super("O segundo parâmetro deve ser maior que o primeiro");
     }
